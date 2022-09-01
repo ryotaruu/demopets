@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.create-form label{
+  color: rgb(19, 15, 15) !important;
+  
+  
+ 
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #abdff7;
+  color: rgb(19, 15, 15);
+  flex-direction: column;
+}
+Card {
+  border: 2px solid rgb(16, 17, 16);
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
